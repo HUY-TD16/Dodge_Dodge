@@ -11,7 +11,7 @@
 class FireBall {
 private:
 	std::vector<FireballIndex> fireball_;
-	int fireballSpawn = 1;
+	int fireballSpawn = 11;
 	int maxFireballSpawn = 5;
 	const Uint32 spawnInterval_ = 1200;
 	LTexture Fireball_Sprite;

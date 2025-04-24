@@ -16,7 +16,7 @@ public:
 
 private:
 	std::vector<ExplosionIndex> explosion_;
-	int explosionPerSpwan = 1;
+	int explosionPerSpwan = 8;
 	const Uint32 explosionInterval = 3000;
 	const Uint32 explosionWarningTime = 1000;
 	const Uint32 explosionActiveTime = 1000;

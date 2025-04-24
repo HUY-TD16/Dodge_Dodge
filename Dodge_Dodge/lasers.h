@@ -15,7 +15,7 @@ public:
 	void render(SDL_Renderer* gRenderer);
 private:
 	std::vector<LaserIndex> laser_;
-	int laserPerSpawn = 1;
+	int laserPerSpawn = 10;
 	const Uint32 laserInterval = 3000;
 	const Uint32 laserWarningTime = 1000;
 	const Uint32 laserActiveTime = 1000;

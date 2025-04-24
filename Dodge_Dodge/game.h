@@ -20,6 +20,7 @@ enum class State {
     PAUSED,
     GAME_OVER
 };
+
 class Game {
 public:
     Game();

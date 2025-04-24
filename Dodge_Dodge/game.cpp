@@ -31,7 +31,7 @@ void Game::handleInput(SDL_Event& e, Uint32 currentTime) {
         switch (state) {
         case State::MENU:
             if (isButtonClick(mouseX, mouseY, interface.StartTextRect)) {
-                state = State::PLAYING;
+                state = State::PLAYING; 
                 Mix_HaltMusic();
                 gameStartTime = SDL_GetTicks();
                 showTutorial = false;
